@@ -39,4 +39,5 @@ int convert_day(int month, int day)
 		case 10:
 			day = 273 + day;
 	}
+	return (day);
 }
