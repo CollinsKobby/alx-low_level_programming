@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
- * _isdigit(int c) - checks for digits
+ * _isdigit - checks for digits
  *
  * Return: 0
  */
 
 int _isdigit(int c)
 {
-	if (c >= "0" && c <= "9")
+	if (c <= 9)
 	{
 		return (1);
 	}
