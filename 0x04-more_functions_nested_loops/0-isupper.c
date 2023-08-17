@@ -3,6 +3,7 @@
 /**
  * _isupper - checks for uppercas letters
  *
+ * c - receivees alphabet
  * Return: 0
  */
 
