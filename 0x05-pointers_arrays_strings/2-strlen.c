@@ -6,13 +6,13 @@
  *
  * @s: character pointer
  *
- * Return: always 0
+ * Return: strlen(s)
  */
 
 int _strlen(char *s)
 {
 	strlen(s);
 
-	return (0);
+	return (strlen(s));
 }
 
