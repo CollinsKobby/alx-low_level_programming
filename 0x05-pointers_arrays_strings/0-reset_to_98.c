@@ -4,6 +4,8 @@
 /**
  * reset_to_98 - Reset the value to 98
  *
+ * @n: pointer n
+ *
  * Return: void
  */
 

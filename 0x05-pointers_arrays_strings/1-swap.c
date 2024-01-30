@@ -4,6 +4,8 @@
 /**
  * swap_int - used to swap input
  *
+ * @a: pointer a
+ * @b: poinetr b
  * Return: void
  */
 
