@@ -13,8 +13,12 @@
 
 char *_strcat(char *dest, char *src)
 {
-	char *strcat(char *dest, const char *src);
+	char c;
 
-	/*return (dest)*/
+	c = *src;
+	char *strcat(char *dest, const char *src);
+	*src = c;
+
+	return (dest);
 }
 
