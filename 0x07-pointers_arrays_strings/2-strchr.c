@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * strchr - returns a pointer
+ * _strchr - returns a pointer
  *
  * @s: first member
  * @c: second member
