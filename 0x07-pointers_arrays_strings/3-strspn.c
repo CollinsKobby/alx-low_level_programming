@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * _strspn - calculates length 
+ * _strspn - calculates length
  *
  * @s: first member
  * @accept: second member
