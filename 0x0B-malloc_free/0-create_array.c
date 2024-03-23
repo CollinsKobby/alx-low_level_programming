@@ -12,7 +12,7 @@
 
 char *create_array(unsigned int size, char c)
 {
-	char *aptr ;
+	char *aptr;
 	int i;
 
 	aptr = NULL;
@@ -21,17 +21,15 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
-
-	if (aptr == NULL)
+	if (size != 0)
 	{
-		return (NULL);
-	}
-	else
-	{
-		aptr =(char*)malloc(size * sizeof(char));
-		for (i = 0; i < (int)size; ++i)
+		aptr = (char *)malloc(size * sizeof(char));
+		if (aptr != NULL)
 		{
-			aptr[i] = c;
+			for (i = 0; i < (int)size; ++i)
+			{
+				aptr[i] = c;
+			}
 		}
 	}
 
