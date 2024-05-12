@@ -2,9 +2,9 @@
 
 /**
  * _isupper - checks for uppercas letters
+ * @c: letter
  *
- * c - receivees alphabet
- * Return: 0
+ * Return: always 0
  */
 
 int _isupper(int c)
