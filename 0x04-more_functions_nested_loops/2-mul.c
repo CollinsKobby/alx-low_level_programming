@@ -3,6 +3,8 @@
 
 /**
  * mul - multiplies two integers
+ * @a: first member
+ * @b: second member
  *
  * Return: 0
  */
